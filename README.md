@@ -29,6 +29,13 @@ After installation publish the config file:
 php artisan vendor:publish --provider="EeKay\abtest\AbtestServiceProvider"
 ```
 
+If this doesn't work, you might want to call:
+
+```
+$ php artisan vendor:publish
+```
+Then choose the number that's behind "Provider: EeKay\Abtest\AbtestServiceProvider".
+
 You can define your experiments and goals in there.
 
 Finally, run the newly added migration
