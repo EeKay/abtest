@@ -1,11 +1,11 @@
 <?php
 
-namespace Apurbajnu\Abtest;
+namespace EeKay\Abtest;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Apurbajnu\Abtest\Abtest
+ * @see \EeKay\Abtest\Abtest
  */
 class AbtestFacade extends Facade
 {

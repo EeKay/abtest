@@ -1,10 +1,10 @@
 <?php
 
-namespace Apurbajnu\Abtest;
+namespace EeKay\Abtest;
 
-use Apurbajnu\Abtest\Commands\ReportCommand;
-use Apurbajnu\Abtest\Commands\ResetCommand;
-use Apurbajnu\Abtest\Abtest;
+use EeKay\Abtest\Commands\ReportCommand;
+use EeKay\Abtest\Commands\ResetCommand;
+use EeKay\Abtest\Abtest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;

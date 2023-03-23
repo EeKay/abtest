@@ -1,17 +1,17 @@
 {
-    "name": "apurbajnu/abtest",
-    "description": "Laravel 8 AB testing package",
+    "name": "eekay/abtest",
+    "description": "Laravel AB testing package",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Apurbajnu\\Abtest\\": "src/"
+            "EeKay\\Abtest\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Apurba Podder",
-            "email": "apurba.jnu@gmail.com"
+            "name": "Edwin Klesman",
+            "email": "info@eekay.nl"
         }
     ],
 
@@ -27,7 +27,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "apurbajnu\\Abtest\\Tests\\": "tests"
+            "eekay\\Abtest\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -40,10 +40,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Apurbajnu\\Abtest\\AbtestServiceProvider"
+                "EeKay\\Abtest\\AbtestServiceProvider"
             ],
             "aliases": {
-                "Abtest": "Apurbajnu\\Abtest\\AbtestFacade"
+                "Abtest": "EeKay\\Abtest\\AbtestFacade"
             }
         }
     }

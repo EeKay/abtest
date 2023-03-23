@@ -1,9 +1,9 @@
 <?php
 
-namespace Apurbajnu\Abtest\Tests;
+namespace EeKay\Abtest\Tests;
 
-use Apurbajnu\Abtest\AbtestFacade;
-use Apurbajnu\Abtest\AbtestServiceProvider;
+use EeKay\Abtest\AbtestFacade;
+use EeKay\Abtest\AbtestServiceProvider;
 use Illuminate\Support\Facades\Event;
 
 class TestCase extends \Orchestra\Testbench\TestCase

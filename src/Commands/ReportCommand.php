@@ -1,8 +1,8 @@
 <?php
 
-namespace Apurbajnu\Abtest\Commands;
+namespace EeKay\Abtest\Commands;
 
-use Apurbajnu\Abtest\Models\Experiment;
+use EeKay\Abtest\Models\Experiment;
 use Illuminate\Console\Command;
 
 class ReportCommand extends Command

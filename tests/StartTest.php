@@ -1,11 +1,11 @@
 <?php
 
-namespace Apurbajnu\Abtest\Tests;
+namespace EeKay\Abtest\Tests;
 
-use Apurbajnu\Abtest\AbtestFacade;
-use Apurbajnu\Abtest\Exceptions\InvalidConfiguration;
-use Apurbajnu\Abtest\Models\Experiment;
-use Apurbajnu\Abtest\Models\Goal;
+use EeKay\Abtest\AbtestFacade;
+use EeKay\Abtest\Exceptions\InvalidConfiguration;
+use EeKay\Abtest\Models\Experiment;
+use EeKay\Abtest\Models\Goal;
 
 class StartTest extends TestCase
 {

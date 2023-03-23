@@ -1,6 +1,6 @@
 <?php
 
-namespace Apurbajnu\Abtest\Exceptions;
+namespace EeKay\Abtest\Exceptions;
 
 use Exception;
 

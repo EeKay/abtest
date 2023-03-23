@@ -1,11 +1,11 @@
 <?php
 
-namespace Apurbajnu\Abtest\Tests;
+namespace EeKay\Abtest\Tests;
 
-use Apurbajnu\Abtest\AbtestFacade;
-use Apurbajnu\Abtest\Commands\ReportCommand;
-use Apurbajnu\Abtest\Models\Experiment;
-use Apurbajnu\Abtest\Models\Goal;
+use EeKay\Abtest\AbtestFacade;
+use EeKay\Abtest\Commands\ReportCommand;
+use EeKay\Abtest\Models\Experiment;
+use EeKay\Abtest\Models\Goal;
 
 class CommandTest extends TestCase
 {
